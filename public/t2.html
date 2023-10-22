@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Website in Popup</title>
+</head>
+<body>
+    <button id="openPopup">Open Website in Popup</button>
+
+    <script>
+        document.getElementById('openPopup').addEventListener('click', function () {
+            // Specify the URL of the website you want to open in the popup
+            var websiteURL = 'https://coming-soonlp.my.canva.site/coming-soon';
+
+            // Define the size and properties of the popup window
+            var popupWidth = 800;
+            var popupHeight = 600;
+            var popupOptions = 'width=' + popupWidth + ',height=' + popupHeight + ',resizable=yes,scrollbars=yes';
+
+            // Open the popup window
+            var popup = window.open(websiteURL, 'PopupWindow', popupOptions);
+
+            // Handle cases where a popup blocker might prevent the window from opening
+            if (!popup || popup.closed || typeof popup.closed === 'undefined') {
+                alert('The popup window was blocked or couldn\'t be opened. Please check your browser settings.');
+            }
+        });
+    </script>
+</body>
+</html>

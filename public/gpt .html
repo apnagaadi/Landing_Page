@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-Level Form</title>
+    <style>
+        .form-level {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div id="personal-info" class="form-level active">
+        <h2>Personal Information</h2>
+        <form id="personal-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" required><br><br>
+            <button onclick="nextForm('personal-info', 'service-options')">Next</button>
+        </form>
+    </div>
+    
+    <div id="service-options" class="form-level">
+        <h2>Service Options</h2>
+        <form id="service-form">
+            <label for="service">Select a service:</label>
+            <select id="service" required>
+                <option value="buy">Buy a Vehicle</option>
+                <option value="sell">Sell a Vehicle</option>
+                <option value="rent">Rent a Vehicle</option>
+            </select><br><br>
+            <button onclick="nextForm('service-options', 'confirmation')">Next</button>
+        </form>
+    </div>
+
+    <div id="confirmation" class="form-level">
+        <h2>Confirmation</h2>
+        <p><strong>Name:</strong> <span id="confirmation-name"></span></p>
+        <p><strong>Email:</strong> <span id="confirmation-email"></span></p>
+        <p><strong>Mobile Number:</strong> <span id="confirmation-mobile"></span></p>
+        <p><strong>Service Selected:</strong> <span id="confirmation-service"></span></p>
+    </div>
+
+    <script>
+        function nextForm(currentFormId, nextFormId) {
+            const currentForm = document.getElementById(currentFormId);
+            const nextForm = document.getElementById(nextFormId);
+
+            if (currentForm && nextForm) {
+                currentForm.classList.remove("active");
+                nextForm.classList.add("active");
+                
+                // Display the entered values on the confirmation form
+                if (nextFormId === 'confirmation') {
+                    const name = document.getElementById('name').value;
+                    const email = document.getElementById('email').value;
+                    const mobile = document.getElementById('mobile').value;
+                    const service = document.getElementById('service').value;
+                    document.getElementById('confirmation-name').textContent = name;
+                    document.getElementById('confirmation-email').textContent = email;
+                    document.getElementById('confirmation-mobile').textContent = mobile;
+                    document.getElementById('confirmation-service').textContent = service;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
