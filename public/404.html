@@ -22,6 +22,7 @@
 
         <link href="css/tooplate-clean-work.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/w.css">
+        <link rel="stylesheet" href="./css/subscribe.css">
         <style>
           .error404 {
             max-width: 100%;
@@ -152,6 +153,44 @@
                 </script>
                 </div>
             </section>
+
+
+            <section class="subscribe_sec">
+            
+              <div class="subscribe">
+                <div class="subscribe_text">
+                  <h5 class="text-orange">Subscribe to ApnaGaadi</h5>
+                  <p>Get the latest offers, updates on Mobile App by ApnaGaadi.co</p>
+                </div>
+                <div class="form_content">
+                  <form class="subscription" name="submit-to-google-sheet" >
+                    <input class="add-email"name="Email" type="email" placeholder="subscribe@me.now">
+                    <button class="submit-email" type="submit">
+                      <span class="before-submit">Subscribe</span>
+                      <span class="after-submit">Thank you for subscribing!</span>
+                     </button>
+                  </form>
+                </div>
+          
+              </div>
+              
+          
+             
+          
+             <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbwytLKH-q4zt-TduQPieMz4f7xU0TCWnD0pqK_6W4n6wrQKS9gQY2Jhr7YaZNHL76tm/exec'
+                const form = document.forms['submit-to-google-sheet']
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => console.log('Success!', response))
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script> 
+              
+            </section>
+
         </main>
         
         <footer class="site-footer">
