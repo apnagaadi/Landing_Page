@@ -111,12 +111,7 @@
   padding-left: 230px;
 }
 
-.vector {
- 
-  width: 740px;
-  height: 740vh;
- 
-}
+
 
 .rental_call
 {
@@ -169,9 +164,11 @@
 }
 
 .vector {
-  max-width: 100%;  /* Ensure the vector is responsive */
+  max-width: 100%; 
+  width: 740px; 
   height: auto;
   margin-top: 225px;
+  margin-right: -10px;
 }
 
 
