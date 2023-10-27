@@ -12,7 +12,7 @@ document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
     const dotContainer = document.querySelector('.pagination');
     
     const testimonialItems = document.querySelectorAll('.testimonial-item');
-    const itemWidth = testimonialItems[0].offsetWidth+20;
+    const itemWidth = testimonialItems[0].offsetWidth;
     
     let currentIndex = 0;
     

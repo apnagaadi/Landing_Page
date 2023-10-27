@@ -310,18 +310,6 @@
   background: #555;
 }
 
-
-
-
-.testimonial-carousel {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  scroll-behavior: smooth; /* Enable smooth scrolling */
-  width: 100%; /* Ensure the entire carousel is visible */
-  /* ... (your existing styles) ... */
-}
-
 /* Custom styles for pagination dots */
 .pagination {
   display: flex;
@@ -340,20 +328,6 @@
 
 .dot.active {
   background: #555;
-}
-
-
-
-
-
-
-.testimonial-carousel {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  scroll-behavior: smooth; /* Enable smooth scrolling */
-  width: 100%; /* Ensure the entire carousel is visible */
-  /* ... (your existing styles) ... */
 }
 
 /* Custom styles for navigation buttons */
