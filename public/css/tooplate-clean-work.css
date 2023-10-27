@@ -1613,3 +1613,17 @@ strong {
   }
 }
 
+
+
+
+@media (max-width: 600px) {
+  /* Your CSS rules for screens up to 600px */
+  .topt
+  {
+    font-size: 13px;
+    
+    margin-bottom: 10px;
+  }
+  
+ 
+}

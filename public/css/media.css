@@ -1,6 +1,42 @@
 /* Styles for screens up to 600px wide */
 @media (max-width: 600px) {
     /* Your CSS rules for screens up to 600px */
+   .site-header p
+   {
+     font-size: 12px;
+     margin-bottom: 10px;
+   }
+    .logo_svg
+    {
+      width: 210px;
+    }
+    .navbar
+    {
+      margin-top: 10px;
+    }
+    .custom-block-wrap .custom-block 
+    {
+      right: 12px;
+      margin: 0px;
+      padding: 10px;
+    }
+    .imb-3 {
+      font-size: 28px;
+      padding-left: 0;
+    }
+    .pmb
+    {
+      color:#717275; 
+      margin:15px 0 5px;
+      font-size: 24px;
+      padding: 5px;
+      text-align: left;
+      
+    }
+    
+  
+   
+
   }
   
   /* Styles for screens between 601px and 768px wide */
@@ -27,7 +63,7 @@
 
 
 
-  @media (max-width: 822px) {
+ /* @media (max-width: 822px) {
 
 
 
@@ -38,56 +74,55 @@
   
     .mb-4 {
       font-size: 32px;
-      /* Reduce font size for smaller screens */
+     
     }
   
     .imb-3 {
       font-size: 28px;
-      /* Reduce font size for smaller screens */
+     
       padding-left: 0;
-      /* Remove padding for smaller screens */
+     
     }
   
     .pmb {
       font-size: 20px;
-      /* Reduce font size for smaller screens */
+      
       padding: 5px 15px 10px 0;
-      /* Adjust padding for smaller screens */
+      
   
     }
   
     .ser-title {
       font-size: 18px;
       margin-left: 10px;
-      /* Reduce font size for smaller screens */
+      
     }
   
     .titlepup {
       font-size: 14px;
-      /* Reduce font size for smaller screens */
-      /* Remove padding for smaller screens */
+    
     }
   
     .titledof {
       font-size: 14px;
-      /* Reduce font size for smaller screens */
+     
       padding-left: 110px;
-      /* Remove padding for smaller screens */
+      
     }
   
     .vector {
       max-width: 100%;
-      /* Make the vector image responsive */
+      
       height: auto;
       margin: -1444px 0px 0px 10px;
-      /* Reduce top margin for smaller screens */
+     
     }
   
     .right-side {
       display: block;
-      /* Change to a block-level element for smaller screens */
+      
       align-items: center;
-      /* Center align content for smaller screens */
+    
     }
   
     .services-thumb {
@@ -97,12 +132,12 @@
     .rental_form,
     .form-input {
       width: 90%;
-      /* Make form inputs full width for smaller screens */
+     
     }
   
     .right-side {
       position: relative;
-      /* Reset position for smaller screens */
+     
     }
   
     .form-title {
@@ -165,4 +200,4 @@
       text-align: left;
     }
   
-  }
+  }*/
