@@ -1,4 +1,48 @@
 /* Styles for screens up to 600px wide */
+@media (min-width: 414px) and (max-width: 432px) 
+{
+  .vector {
+    margin-top: 355px;
+     
+    }
+    .navbar
+    {
+      margin-top: 10px;
+    }
+}
+@media (min-width: 432px) and (max-width: 449px) 
+{
+  .vector {
+    margin-top: 330px;
+     
+    }
+    .navbar
+    {
+      margin-top: 10px;
+    }
+}
+@media (min-width: 449px) and (max-width: 460px) 
+{
+  .vector {
+    margin-top: 310px;
+     
+    }
+    .navbar
+    {
+      margin-top: 10px;
+    }
+}
+@media (min-width: 460px) and (max-width: px) 
+{
+  .vector {
+    margin-top: 330px;
+     
+    }
+    .navbar
+    {
+      margin-top: 10px;
+    }
+}
 @media (max-width: 414px) {
     /* Your CSS rules for screens up to 600px */
    .site-header p
@@ -125,13 +169,8 @@
       padding: 20px;
   }
   }
-  @media (min-width: 414px) and (max-width: 432px) {
-    .vector {
-      margin-top: 355px;
-       
-      }
-  }
-  @media (min-width: 414px) and (max-width: 600px) {
+ 
+@media (min-width: 414px) and (max-width: 600px) {
 
   
      .custom-block-wrap .custom-block 
@@ -246,7 +285,7 @@
 
   }
   /* Styles for screens between 601px and 768px wide */
-  @media (min-width: 601px) and (max-width: 768px) {
+  @media (min-width: 601px) and (max-width: 668px) {
     .custom-block-wrap .custom-block 
     {
       right: 12px;
@@ -254,14 +293,14 @@
       padding: 10px;
     }
     .imb-3 {
-      font-size: 28px;
+      font-size: 30px;
       padding-left: 0;
     }
     .pmb
     {
       color:#717275; 
       margin:15px 0 5px;
-      font-size: 24px;
+      font-size: 26px;
       padding: 5px;
       text-align: left;
     }
@@ -275,6 +314,11 @@
     {
       margin-top: 200px;
     }
+    .vector {
+      margin-top: 135px;
+      width: 610px;
+       
+      }
   .ser_container 
   {
     display: flex;
@@ -282,8 +326,9 @@
   }
   .services-thumb
   {
-    margin-left: 30px;
+    margin-left: 25px;
     padding: 15px;
+    
   }
 
   .left-side, .right-side {
@@ -325,10 +370,6 @@
       padding-left: 90px; 
     }
   
-   
-
-    
-
 
     .subscribe {
       flex-direction: column; /* Stack elements vertically */
@@ -357,7 +398,117 @@
   
     /* Your CSS rules for screens between 601px and 768px */
   }
+  @media (min-width: 668px) and (max-width: 768px) {
+    .custom-block-wrap .custom-block 
+    {
+      right: 12px;
+      margin: 0px;
+      padding: 10px;
+    }
+    .imb-3 {
+      font-size: 30px;
+      padding-left: 0;
+    }
+    .pmb
+    {
+      color:#717275; 
+      margin:15px 0 5px;
+      font-size: 26px;
+      padding: 5px;
+      text-align: left;
+    }
+
+   
+    .rental_form
+    {
+      margin:0px;
+    }
+    .vector {
+      margin-top: 225px;
+      width:90%;
+       
+      }
+    .left-side
+    {
+      margin-top: 260px;
+    }
+  .ser_container 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-thumb
+  {
+    margin-left: -40px;
+    padding: 15px;
+    width: 120%;
+  }
+
+  .left-side, .right-side {
+      width: 100%;
+      padding: 0px;
+      
+  }
+  .rental_form,.form-input {
+      width: 100%;
+      font-size: 10px;
+    }
+    .ser-title {
+      margin: 0px 0px 15px 0px; 
+    }
+   
+     .form-title ,.form-titlepn{
+      font-size: 14px;
+      color: #544F49;
+      font-style: normal;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      padding: 5px;
+      align-items: center;
+      width: 90%;
+    }
+    .form-icon
+    {
+      width: 16px;
+      height: 16px;
+    }
+    
+
+    .titlepup,.titledof {
+      font-size: 12px;
+    
+    }
   
+    .titledof {
+      padding-left: 90px; 
+    }
+  
+
+    .subscribe {
+      flex-direction: column; /* Stack elements vertically */
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    .subscribe p {
+      margin-top: 20px; /* Add space between elements */
+    }
+    .form_content {
+       /* Full width */
+      margin: 20px 30px 20px 30px;
+    }
+    .subscription .add-email {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding: 20px;
+  }
+  }
   /* Styles for screens between 769px and 992px wide */
   @media (min-width: 768px) and (max-width: 992px) {
    
@@ -373,7 +524,10 @@
       padding: 5px;
       text-align: left;
     }
-
+    .vector {
+      margin-top: 100px;
+  
+      }
    
     .rental_form
     {
@@ -381,7 +535,7 @@
     }
     .left-side
     {
-      margin-top: 200px;
+      margin-top: 325px;
     }
   .ser_container 
   {
@@ -490,7 +644,7 @@
     }
     .left-side
     {
-      margin-top: 200px;
+      margin-top: 50px;
     }
   .ser_container 
   {
@@ -508,6 +662,7 @@
       padding: 0px;
       
   }
+
   .rental_form,.form-input {
       width: 100%;
       font-size: 10px;
@@ -531,7 +686,11 @@
       width: 16px;
       height: 16px;
     }
-    
+    .vector {
+      margin-top: 225px;
+      width: 525px;
+       
+      }
 
     .titlepup,.titledof {
       font-size: 12px;
@@ -567,7 +726,7 @@
   }
   
   /* Styles for screens larger than 1200px */
-  @media (min-width: 1201px) {
+  @media (min-width: 1200px) {
 
     .custom-block-wrap .custom-block 
     {
@@ -595,7 +754,7 @@
     }
     .left-side
     {
-      margin-top: 200px;
+      margin-top: 25px;
     }
   .ser_container 
   {
@@ -604,6 +763,7 @@
   }
   .services-thumb
   {
+    
     margin-left: 30px;
     padding: 15px;
   }
@@ -647,10 +807,11 @@
       padding-left: 90px; 
     }
   
-   
-
-    
-
+    .vector {
+      margin-top: 135px;
+      width: 610px;
+       
+      }
 
     .subscribe {
       flex-direction: row; /* Stack elements vertically */
