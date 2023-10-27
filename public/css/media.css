@@ -89,18 +89,12 @@
 
     .titlepup,.titledof {
       font-size: 12px;
-    
+      width: 90%;
     }
-  
     .titledof {
-      padding-left: 90px; 
+      padding-left: 15px; 
     }
   
-   
-
-    
-
-
     .subscribe {
       flex-direction: column; /* Stack elements vertically */
       text-align: center;
@@ -202,16 +196,11 @@
  
      .titlepup,.titledof {
        font-size: 12px;
-     
+       width: 90%;
      }
-   
      .titledof {
-       padding-left: 90px; 
-     }
-   
-    
- 
-     
+      padding-left: 15px; 
+    }   
  
  
      .subscribe {
@@ -397,13 +386,13 @@
 
     .titlepup,.titledof {
       font-size: 12px;
-    
+      width: 90%;
     }
-  
     .titledof {
-      padding-left: 90px; 
+      padding-left: 15px; 
     }
   
+    
 
     .subscribe {
       flex-direction: column; /* Stack elements vertically */
@@ -510,14 +499,13 @@
 
     .titlepup,.titledof {
       font-size: 12px;
-    
+      width: 90%;
     }
-  
     .titledof {
-      padding-left: 90px; 
+      padding-left: 15px; 
     }
   
-
+   
     .subscribe {
       flex-direction: column; /* Stack elements vertically */
       text-align: center;
@@ -614,14 +602,12 @@
 
     .titlepup,.titledof {
       font-size: 12px;
-    
+      width: 90%;
     }
-  
     .titledof {
-      padding-left: 90px; 
+      padding-left: 15px; 
     }
-  
-
+    
     .subscribe {
       flex-direction: column; /* Stack elements vertically */
       text-align: center;
@@ -728,11 +714,12 @@
 
     .titlepup,.titledof {
       font-size: 12px;
+      width: 90%;
     
     }
   
     .titledof {
-      padding-left: 90px; 
+      padding-left: 15px; 
     }
 
     .subscribe {
@@ -834,11 +821,11 @@
 
     .titlepup,.titledof {
       font-size: 12px;
-    
+    width: 90%;
     }
   
     .titledof {
-      padding-left: 90px; 
+      padding-left: 15px; 
     }
   
     .vector {
