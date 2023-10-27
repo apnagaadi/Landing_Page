@@ -841,7 +841,12 @@
    
     .form_content {
        /* Full width */
-      margin: 20px 30px 20px 30px;
+      margin:20px auto;
+      text-align: right;
+      width: 360px;
+      height: 40px;
+      box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+      border-radius: 60px;
     }
     .subscription .add-email {
       position: absolute;
