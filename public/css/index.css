@@ -280,3 +280,91 @@
 }
 
 
+/*scroll*/
+.testimonial-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none; /* Hide scrollbars for a cleaner look */
+  -ms-overflow-style: none;
+}
+
+.testimonial-item {
+  flex: 0 0 auto;
+  padding: 20px;
+  transition: transform 0.5s;
+  min-width: 33%; /* Adjust as needed for the number of visible items */
+}
+
+/* Custom styles for scrollbars (optional) */
+.testimonial-carousel::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.testimonial-carousel::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.testimonial-carousel::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+.testimonial-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+  width: 100%; /* Ensure the entire carousel is visible */
+  /* ... (your existing styles) ... */
+}
+
+/* Custom styles for pagination dots */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #888;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #555;
+}
+
+
+
+
+
+
+.testimonial-carousel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+  width: 100%; /* Ensure the entire carousel is visible */
+  /* ... (your existing styles) ... */
+}
+
+/* Custom styles for navigation buttons */
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*end scroll*/
