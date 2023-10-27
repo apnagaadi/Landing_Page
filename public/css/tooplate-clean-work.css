@@ -558,7 +558,7 @@ strong {
 }
 
 .bi-star-fill {
-  color: var(--custom-btn-bg-color);
+  color: #ffc107;
 }
 
 
@@ -1090,7 +1090,7 @@ strong {
 }
 
 .testimonial-section .featured-block {
-  background-color: var(--primary-color);
+  background-color: #ffffff25;
   border-radius: var(--border-radius-medium);
   margin-bottom: 24px;
   padding: 30px;
