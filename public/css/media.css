@@ -58,14 +58,14 @@
       margin-top: 20px; /* Add space between elements */
     }
     .form_content {
-      width: 100%; /* Full width */
+      width: 90%; /* Full width */
       margin: 20px 30px 20px 30px;
     }
     .subscription .add-email {
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
+      width: 90%;
       height: 100%;
       border: none;
       outline: none;
