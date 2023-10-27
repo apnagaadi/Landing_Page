@@ -119,12 +119,10 @@
   border-radius: 5px;
   border: none;
   color: white;
-  margin-top: 25px;
+  margin: 20px;
   padding: 10px;
  
-  align-items: center;
-  
-  
+  width: 90%;
 }
 .form-input
 {
