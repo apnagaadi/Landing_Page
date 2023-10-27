@@ -1,5 +1,5 @@
 /* Styles for screens up to 600px wide */
-@media (max-width: 600px) {
+@media (max-width: 414px) {
     /* Your CSS rules for screens up to 600px */
    .site-header p
    {
@@ -125,23 +125,552 @@
       padding: 20px;
   }
   }
+  @media (min-width: 414px) and (max-width: 432px) {
+    .vector {
+      margin-top: 355px;
+       
+      }
+  }
+  @media (min-width: 414px) and (max-width: 600px) {
+
   
+     .custom-block-wrap .custom-block 
+     {
+       right: 12px;
+       margin: 0px;
+       padding: 10px;
+     }
+     .imb-3 {
+       font-size: 28px;
+       padding-left: 0;
+     }
+     .pmb
+     {
+       color:#717275; 
+       margin:15px 0 5px;
+       font-size: 24px;
+       padding: 5px;
+       text-align: left;
+     }
+ 
+    
+     .rental_form
+     {
+       margin:0px;
+     }
+     .left-side
+     {
+       margin-top: 200px;
+     }
+   .ser_container 
+   {
+     display: flex;
+     flex-direction: column;
+   }
+   .services-thumb
+   {
+     margin-left: 30px;
+     padding: 15px;
+   }
+ 
+   .left-side, .right-side {
+       width: 100%;
+       padding: 0px;
+       
+   }
+   .rental_form,.form-input {
+       width: 100%;
+       font-size: 10px;
+     }
+     .ser-title {
+       margin: 0px 0px 15px 0px; 
+     }
+    
+      .form-title ,.form-titlepn{
+       font-size: 14px;
+       color: #544F49;
+       font-style: normal;
+       font-family: 'Poppins', sans-serif;
+       font-weight: 600;
+       padding: 5px;
+       align-items: center;
+       width: 90%;
+     }
+     .form-icon
+     {
+       width: 16px;
+       height: 16px;
+     }
+     
+ 
+     .titlepup,.titledof {
+       font-size: 12px;
+     
+     }
+   
+     .titledof {
+       padding-left: 90px; 
+     }
+   
+    
+ 
+     
+ 
+ 
+     .subscribe {
+       flex-direction: column; /* Stack elements vertically */
+       text-align: center;
+       padding: 0px;
+       margin: 0px;
+     }
+   
+     .subscribe p {
+       margin-top: 20px; /* Add space between elements */
+     }
+     .form_content {
+       width: 90%; /* Full width */
+       margin: 20px 30px 20px 30px;
+     }
+     .subscription .add-email {
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 90%;
+       height: 100%;
+       border: none;
+       outline: none;
+       padding: 20px;
+   }
+   
+    /* Your CSS rules for screens between 414px and 600px */
+
+  }
   /* Styles for screens between 601px and 768px wide */
   @media (min-width: 601px) and (max-width: 768px) {
+    .custom-block-wrap .custom-block 
+    {
+      right: 12px;
+      margin: 0px;
+      padding: 10px;
+    }
+    .imb-3 {
+      font-size: 28px;
+      padding-left: 0;
+    }
+    .pmb
+    {
+      color:#717275; 
+      margin:15px 0 5px;
+      font-size: 24px;
+      padding: 5px;
+      text-align: left;
+    }
+
+   
+    .rental_form
+    {
+      margin:0px;
+    }
+    .left-side
+    {
+      margin-top: 200px;
+    }
+  .ser_container 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-thumb
+  {
+    margin-left: 30px;
+    padding: 15px;
+  }
+
+  .left-side, .right-side {
+      width: 100%;
+      padding: 0px;
+      
+  }
+  .rental_form,.form-input {
+      width: 100%;
+      font-size: 10px;
+    }
+    .ser-title {
+      margin: 0px 0px 15px 0px; 
+    }
+   
+     .form-title ,.form-titlepn{
+      font-size: 14px;
+      color: #544F49;
+      font-style: normal;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      padding: 5px;
+      align-items: center;
+      width: 90%;
+    }
+    .form-icon
+    {
+      width: 16px;
+      height: 16px;
+    }
+    
+
+    .titlepup,.titledof {
+      font-size: 12px;
+    
+    }
+  
+    .titledof {
+      padding-left: 90px; 
+    }
+  
+   
+
+    
+
+
+    .subscribe {
+      flex-direction: column; /* Stack elements vertically */
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    .subscribe p {
+      margin-top: 20px; /* Add space between elements */
+    }
+    .form_content {
+       /* Full width */
+      margin: 20px 30px 20px 30px;
+    }
+    .subscription .add-email {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding: 20px;
+  }
+  
     /* Your CSS rules for screens between 601px and 768px */
   }
   
   /* Styles for screens between 769px and 992px wide */
-  @media (min-width: 769px) and (max-width: 992px) {
+  @media (min-width: 768px) and (max-width: 992px) {
+   
+    .imb-3 {
+      font-size: 28px;
+      padding-left: 0;
+    }
+    .pmb
+    {
+      color:#717275; 
+      margin:15px 0 5px;
+      font-size: 24px;
+      padding: 5px;
+      text-align: left;
+    }
+
+   
+    .rental_form
+    {
+      margin:0px;
+    }
+    .left-side
+    {
+      margin-top: 200px;
+    }
+  .ser_container 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-thumb
+  {
+    margin-left: 30px;
+    padding: 15px;
+  }
+
+  .left-side, .right-side {
+      width: 100%;
+      padding: 0px;
+      
+  }
+  .rental_form,.form-input {
+      width: 100%;
+      font-size: 10px;
+    }
+    .ser-title {
+      margin: 0px 0px 15px 0px; 
+    }
+   
+     .form-title ,.form-titlepn{
+      font-size: 14px;
+      color: #544F49;
+      font-style: normal;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      padding: 5px;
+      align-items: center;
+      width: 90%;
+    }
+    .form-icon
+    {
+      width: 16px;
+      height: 16px;
+    }
+    
+
+    .titlepup,.titledof {
+      font-size: 12px;
+    
+    }
+  
+    .titledof {
+      padding-left: 90px; 
+    }
+  
+
+    .subscribe {
+      flex-direction: column; /* Stack elements vertically */
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    .subscribe p {
+      margin-top: 20px; /* Add space between elements */
+    }
+    .form_content {
+     
+      margin: 20px 30px 20px 30px;
+    }
+    .subscription .add-email {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding: 20px;
+  }
+  
     /* Your CSS rules for screens between 769px and 992px */
   }
   
   /* Styles for screens between 993px and 1200px wide */
-  @media (min-width: 993px) and (max-width: 1200px) {
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .custom-block-wrap .custom-block 
+    {
+      right: 12px;
+      margin: 0px;
+      padding: 10px;
+    }
+    .imb-3 {
+      font-size: 28px;
+      padding-left: 0;
+    }
+    .pmb
+    {
+      color:#717275; 
+      margin:15px 0 5px;
+      font-size: 24px;
+      padding: 5px;
+      text-align: left;
+    }
+
+   
+    .rental_form
+    {
+      margin:0px;
+    }
+    .left-side
+    {
+      margin-top: 200px;
+    }
+  .ser_container 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-thumb
+  {
+    margin-left: 30px;
+    padding: 15px;
+  }
+
+  .left-side, .right-side {
+      width: 100%;
+      padding: 0px;
+      
+  }
+  .rental_form,.form-input {
+      width: 100%;
+      font-size: 10px;
+    }
+    .ser-title {
+      margin: 0px 0px 15px 0px; 
+    }
+   
+     .form-title ,.form-titlepn{
+      font-size: 14px;
+      color: #544F49;
+      font-style: normal;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      padding: 5px;
+      align-items: center;
+      width: 90%;
+    }
+    .form-icon
+    {
+      width: 16px;
+      height: 16px;
+    }
+    
+
+    .titlepup,.titledof {
+      font-size: 12px;
+    
+    }
+  
+    .titledof {
+      padding-left: 90px; 
+    }
+
+    .subscribe {
+      flex-direction: row; /* Stack elements vertically */
+    }
+  
+   
+    .form_content {
+       /* Full width */
+      margin: 20px 30px 20px 30px;
+    }
+    .subscription .add-email {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding: 20px;
+  }
+  
+  
     /* Your CSS rules for screens between 993px and 1200px */
   }
   
   /* Styles for screens larger than 1200px */
   @media (min-width: 1201px) {
+
+    .custom-block-wrap .custom-block 
+    {
+      right: 12px;
+      margin: 0px;
+      padding: 10px;
+    }
+    .imb-3 {
+      font-size: 28px;
+      padding-left: 0;
+    }
+    .pmb
+    {
+      color:#717275; 
+      margin:15px 0 5px;
+      font-size: 24px;
+      padding: 5px;
+      text-align: left;
+    }
+
+   
+    .rental_form
+    {
+      margin:0px;
+    }
+    .left-side
+    {
+      margin-top: 200px;
+    }
+  .ser_container 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .services-thumb
+  {
+    margin-left: 30px;
+    padding: 15px;
+  }
+
+  .left-side, .right-side {
+      width: 100%;
+      padding: 0px;
+      
+  }
+  .rental_form,.form-input {
+      width: 100%;
+      font-size: 10px;
+    }
+    .ser-title {
+      margin: 0px 0px 15px 0px; 
+    }
+   
+     .form-title ,.form-titlepn{
+      font-size: 14px;
+      color: #544F49;
+      font-style: normal;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      padding: 5px;
+      align-items: center;
+      width: 90%;
+    }
+    .form-icon
+    {
+      width: 16px;
+      height: 16px;
+    }
+    
+
+    .titlepup,.titledof {
+      font-size: 12px;
+    
+    }
+  
+    .titledof {
+      padding-left: 90px; 
+    }
+  
+   
+
+    
+
+
+    .subscribe {
+      flex-direction: row; /* Stack elements vertically */
+    }
+  
+   
+    .form_content {
+       /* Full width */
+      margin: 20px 30px 20px 30px;
+    }
+    .subscription .add-email {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      height: 100%;
+      border: none;
+      outline: none;
+      padding: 20px;
+  }
+  
     /* Your CSS rules for screens larger than 1200px */
   }
