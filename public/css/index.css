@@ -168,14 +168,6 @@
   margin-top: 225px;
   margin-right: 0px;
 }
-#rrspace,.is-visible {
-  text-align: center; /* Center the text horizontally */
-  display: block; /* Make the element a block element to center text horizontally */
-  margin: 0 auto; /* Center the element horizontally within its parent */
-}
-
-
-
 
 .subscribe {
   width: auto;

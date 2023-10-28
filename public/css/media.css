@@ -7,6 +7,7 @@
      font-size: 12px;
      margin-bottom: 10px;
    }
+ 
     .logo_svg
     {
       width: 210px;
@@ -119,6 +120,16 @@
       outline: none;
       padding: 20px;
   }
+  }
+
+
+  @media (min-width: 414px) and (max-width: 768px) 
+  {
+    #rrspace,.is-visible {
+      text-align: center; /* Center the text horizontally */
+      display: block; /* Make the element a block element to center text horizontally */
+      margin: 0 auto; /* Center the element horizontally within its parent */
+    }
   }
  
 @media (min-width: 414px) and (max-width: 601px) {
