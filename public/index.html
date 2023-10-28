@@ -469,9 +469,9 @@
                     <div class="col-lg-12 col-12 text-center">
                         <h2 class="text-white mb-4">Customers Spotlight</h2>
                     </div>
-        
+                    
                     <div class="testimonial-carousel">
-                        <div class="testimonial-item col-lg-4 col-12">
+                        <div class="testimonial-item col-lg-4 col-12" id="cusr1">
                             <!-- Review content for Marie -->
                             <div class="featured-block">
                                 <div class="d-flex align-items-center mb-3">
@@ -494,7 +494,7 @@
                             </div>
                         </div>
         
-                        <div class="testimonial-item col-lg-4 col-12">
+                        <div class="testimonial-item col-lg-4 col-12" id="cusr2">
                             <!-- Review content for Nana -->
                             <div class="featured-block mb-lg-0">
                                 <div class="d-flex align-items-center mb-3">
@@ -517,7 +517,7 @@
                             </div>
                         </div>
         
-                        <div class="testimonial-item col-lg-4 col-12">
+                        <div class="testimonial-item col-lg-4 col-12" id="cusr3">
                             <!-- Review content for Elon -->
                             <div class="featured-block">
                                 <div class="d-flex align-items-center mb-3">
@@ -540,7 +540,7 @@
                             </div>
                         </div>
         
-                        <div class="testimonial-item col-lg-4 col-12">
+                        <div class="testimonial-item col-lg-4 col-12" id="cusr4">
                             <!-- Review content for Josh -->
                             <div class="featured-block mb-lg-0">
                                 <div class="d-flex align-items-center mb-3">
@@ -563,6 +563,16 @@
                             </div>
                         </div>
         
+                    </div>
+                    <div class="testimonial-controls">
+                        <span class="prev-arrow" onclick="prevTestimonial()">&#10094;</span>
+                        <div class="dot-container">
+                            <div class="dot" onclick="changeTestimonial(1)"></div>
+                            <div class="dot" onclick="changeTestimonial(2)"></div>
+                            <div class="dot" onclick="changeTestimonial(3)"></div>
+                            <div class="dot" onclick="changeTestimonial(4)"></div>
+                        </div>
+                        <span class="next-arrow" onclick="nextTestimonial()">&#10095;</span>
                     </div>
                 </div>
             </div>

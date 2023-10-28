@@ -306,4 +306,41 @@
     background: #555;
 }
 
+
+
+
+
+
+.testimonial-controls {
+  text-align: center;
+  margin: 10px;
+
+}
+
+.prev-arrow, .next-arrow {
+  cursor: pointer;
+  font-size: 30px;
+  color: #fefefe;
+  border: none;
+  margin: 50px;
+}
+.dot-container {
+  display: inline-block;
+  margin: 0 10px; /* Adjust the margin as needed to control the spacing */
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #888;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.active-dot {
+  background-color: #353535;
+}
+
 /*end scroll*/
